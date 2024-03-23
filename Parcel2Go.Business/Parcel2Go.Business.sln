@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parcel2Go.Core", "Parcel2Go
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{24BDE8D9-2A33-43CD-B6EF-90E5B8FB3D3A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parcel2Go.Business.IntegrationTests", "Parcel2Go.Business.Tests\Parcel2Go.Business.IntegrationTests.csproj", "{943EC7D0-EBDB-4EAC-8E90-DF8D1B673476}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parcel2Go.Business.IntegrationTests", "Parcel2Go.Business.IntegrationTests\Parcel2Go.Business.IntegrationTests.csproj", "{943EC7D0-EBDB-4EAC-8E90-DF8D1B673476}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
