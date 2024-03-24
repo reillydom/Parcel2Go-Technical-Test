@@ -62,7 +62,8 @@ namespace Parcel2Go.Business.IntegrationTests
             var totalPrice = checkoutInstance.GetTotalPrice();
 
             // Assert
-            Assert.True(totalPrice == testModel.ExpectedTotalCost);
+            Assert.True(totalPrice == testModel.ExpectedTotalCost,
+                $"Expected {testModel.ExpectedTotalCost} but got {totalPrice}");
         }
 
 
@@ -91,7 +92,42 @@ namespace Parcel2Go.Business.IntegrationTests
                     "Service F",
                     "Service F",
                     "Service B"
-                }, 27)
+                }, 27),
+                // Custom test cases.
+                // Bulk Purchase Discount with Service A
+                new Models.ParcelCheckoutTestModel(new List<string>()
+                {
+                    "Service A",
+                    "Service A",
+                    "Service A"
+                }, 25),
+                // No Discounts Applied
+                new Models.ParcelCheckoutTestModel(new List<string>()
+                {
+                    "Service C",
+                    "Service C",
+                    "Service C",
+                    "Service D",
+                    "Service D",
+
+                }, 95),
+                // Mixed Discounts Applied
+                new Models.ParcelCheckoutTestModel(new List<string>()
+                {
+                    "Service A",
+                    "Service A",
+                    "Service A",
+                    "Service A",
+                    "Service A",
+                    "Service B",
+                    "Service B",
+                    "Service F",
+                }, 73),
+                // Single Item with Discount
+                new Models.ParcelCheckoutTestModel(new List<string>()
+                {
+                    "Service F",
+                }, 8),
             };
 
 
