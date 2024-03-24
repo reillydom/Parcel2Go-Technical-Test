@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34601.278
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parcel2Go.Business", "Parcel2Go.Business\Parcel2Go.Business.csproj", "{B019308B-87D0-4429-BAF8-F0A2A28FD4A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Parcel2Go.Business", "Parcel2Go.Business\Parcel2Go.Business.csproj", "{B019308B-87D0-4429-BAF8-F0A2A28FD4A9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parcel2Go.Business.Interfaces", "Parcel2Go.Business.Interfaces\Parcel2Go.Business.Interfaces.csproj", "{2F13E203-7DD6-4BF8-83BA-B885BA68BE42}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Parcel2Go.Business.Interfaces", "Parcel2Go.Business.Interfaces\Parcel2Go.Business.Interfaces.csproj", "{2F13E203-7DD6-4BF8-83BA-B885BA68BE42}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parcel2Go.Core", "Parcel2Go.Core\Parcel2Go.Core.csproj", "{1F193447-9A6F-4FB0-ABC4-F1AF01155F7B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Parcel2Go.Core", "Parcel2Go.Core\Parcel2Go.Core.csproj", "{1F193447-9A6F-4FB0-ABC4-F1AF01155F7B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{24BDE8D9-2A33-43CD-B6EF-90E5B8FB3D3A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parcel2Go.Business.IntegrationTests", "Parcel2Go.Business.IntegrationTests\Parcel2Go.Business.IntegrationTests.csproj", "{943EC7D0-EBDB-4EAC-8E90-DF8D1B673476}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Parcel2Go.Business.IntegrationTests", "Parcel2Go.Business.IntegrationTests\Parcel2Go.Business.IntegrationTests.csproj", "{943EC7D0-EBDB-4EAC-8E90-DF8D1B673476}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parcel2Go.Business.Tests", "Parcel2Go.Business.Tests\Parcel2Go.Business.Tests.csproj", "{55B232C2-2B4A-40C0-8D17-3721D60407A6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,12 +37,17 @@ Global
 		{943EC7D0-EBDB-4EAC-8E90-DF8D1B673476}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{943EC7D0-EBDB-4EAC-8E90-DF8D1B673476}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{943EC7D0-EBDB-4EAC-8E90-DF8D1B673476}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55B232C2-2B4A-40C0-8D17-3721D60407A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55B232C2-2B4A-40C0-8D17-3721D60407A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55B232C2-2B4A-40C0-8D17-3721D60407A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55B232C2-2B4A-40C0-8D17-3721D60407A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{943EC7D0-EBDB-4EAC-8E90-DF8D1B673476} = {24BDE8D9-2A33-43CD-B6EF-90E5B8FB3D3A}
+		{55B232C2-2B4A-40C0-8D17-3721D60407A6} = {24BDE8D9-2A33-43CD-B6EF-90E5B8FB3D3A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {933FA12A-D70D-4B1A-8A4B-47975BBD8F76}
